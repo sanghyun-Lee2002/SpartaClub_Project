@@ -9,7 +9,7 @@ while 1:    # 무한반복
     random_answer = random.choice(['가위','바위','보']) #컴퓨터 선택
     print("가위! 바위! 보!")
     HumanInput = input() 
-    # 오타 방지
+    # 오타 방지 및 수정 편의용
     a = "Win!"
     b = "Lose..."
     c = "Draw!"

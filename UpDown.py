@@ -19,7 +19,7 @@ while 1:  # 다시시작 시, 반복하기 위함.
             elif (input_value < random_number):
                 record.append(input_value)  # 입력한 값들을 기록함.
                 print("더 커요! UP!!")
-            elif (input_value > random_number):
+            else: #(input_value > random_number):
                 record.append(input_value)  # 입력한 값들을 기록함.
                 print("더 작아요... Down!")
         except:
