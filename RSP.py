@@ -54,6 +54,6 @@ while 1:    # 무한반복
         continue
     else:
         print(" - 게임을 끝마쳤습니다. - \n")
-        print("승리 전적\n", win,"패배 전적\n", lose, "무승부 전적\n",draw)
-        print(f"{win}회")
+        print("승리 전적\n",win,"\n패배 전적\n",lose, "\n무승부 전적\n",draw)
+        print(f" {len(win)}회 / {len(lose)}회 / {len(draw)}회 \n")
         break
